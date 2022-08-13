@@ -1,0 +1,81 @@
+:root {
+    --font-family: 'Raleway', 'Roboto', sans-serif;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-text-color-theme-dark: #FFFFFF;
+    --secondary-text-color-theme-dark: #757575;
+    --primary-text-color-theme-light: #212121;
+    --secondary-text-color-theme-light: #757575;
+    --accent-color: #2196F3;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: var(--accent-color);
+}
+
+.logo-back-dark {
+    color: var(--primary-text-color-theme-light);    
+}
+
+.logo-back-light {
+    color: var(--primary-text-color-theme-dark);    
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--primary-font)
+}
+
+/*==== HEADER ====*/
+
+.nav {    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.menu-link {
+    color: var(--primary-text-color-theme-light);    
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.contacts-mail, .contacts-phone-number {
+    color: transparent;
+}
+
+.mail {
+    color: var(--accent-color);
+}
+
+.phone-number {
+    color: var(--secondary-text-color-theme-light);    
+}
+
+/*==== HERO ====*/
+
+
+
