@@ -1,74 +1,83 @@
 <!DOCTYPE html>
 <html lang="ua">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title lang="en">WebStudio</title>
-</head>
-<body>
-    <!-- head -->
-<header>
-    <nav>
-        <a href="./Index.html">WebStudio</a>
-    <ul>
-        <li><a hred="">Студія</a></li>
-        <li><a hred="">Портфоліо</a></li>
-        <li><a hred="">Контакти</a></li>
-    </ul>
-    <ul>
-        <li><a href="mailto:info@devstudio.com" target="blank">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">096 111 11 11</a></li>
-    </ul>
-    </nav>
-</header>
-    <main>
-        <!-- main section with button -->
-        <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title lang="en">WebStudio</title>
+        <link rel="preconect" href="https://fonts.googleaps.com" />    
+        <link rel="stylesheet" href="./css/styles.css" />
+    </head>
+    <body>
+        <!-- Header -->
+        <hedrer class="page-header">
+            <nav class="page-navigation">
+                <a href="./Index.html" class="logo">Web<span class="logo-back">Studio</span></a>
+                <ul class="menu list">
+                    <li class="menu-item"><a hred="">Студія</a></li>
+                    <li class="menu-item"><a hred="">Портфоліо</a></li>
+                    <li class="menu-item"><a hred="">Контакти</a></li>
+                </ul>
+                <ul class="contacts">
+                    <li class="contacts-mail"><a href="mailto:info@devstudio.com" target="blank">info@devstudio.com</a></li>
+                    <li class="contacts-phone-number"><a href="tel:+380961111111">096 111 11 11</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main class="main-content">
+        <!-- hero -->
+        <section class="business-solutions">
+            <!-- Effective solutions for your business section -->
+            <h1>Ефективні рішення для вашого бізнесу</h1>
+            <button class="modal-open-btn" type="button">Замовити послугу</button>
         </section>
-        <!-- our features -->
-        <section>
+        <section class="features">
+            <!-- Our features section -->
             <h2>Наші особливості</h2>
-            <ul>
-                <li>
+            <ul class="menu list">
+                <li class="menu-item">
                     <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
                     <p>Ідейні міркування, взаємоповага та увага до всього оточуючого як запорука благополуччя суспільства.</p>
                 </li>
-                <li>
+                <li class="menu-item">
                     <h3>ПУНКТУАЛЬНІСТЬ</h3>
                     <p>Свідчення далекоглядності, впевненості в собі, зібраності, пристосовності до обставин.</p>
                 </li>
-                <li>
+                <li class="menu-item">
                     <h3>ПЛАНУВАННЯ</h3>
                     <p>Уміння управляти своїм часом, вміння планувати та перебудовувати свої плани – показник високої компетенції.</p>
                 </li>
-                <li>
+                <li class="menu-item">
                     <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                     <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань не може існувати без якісних технічних рішень.</p>
                 </li>
             </ul>
-        </section>
-        <!-- what we are doing -->
-        <section>            
+        </section>        
+        <section class="what-we-are-doing">
+            <!-- What we are doing section -->          
             <h2>Чим ми займаємося</h2>
-            <ul>
-                <li><img src="./img/Hands-on-the-keyboard-from-the-tablet.jpg"
+            <ul class="menu list">
+                <li class="menu-item">
+                    <img src="./img/Hands-on-the-keyboard-from-the-tablet.jpg"
                     alt="Кисті рук на клавіатурі від планшету"
-                    width="370"></Img></li>
-                <li><img src="./img/Hands-with-the-phone-near-the-notebook.jpg"
+                    width="370"></Img>
+                </li>
+                <li class="menu-item">
+                    <img src="./img/Hands-with-the-phone-near-the-notebook.jpg"
                     alt="Кисті рук з телефоном біля ноутбука "
-                    width="370"></Img></li>
-                <li><img src="./img/Color-palette-on-the-tablet.jpg"
+                    width="370"></Img>
+                </li>
+                <li class="menu-item">
+                    <img src="./img/Color-palette-on-the-tablet.jpg"
                     alt="Планшет з кольоровою палітрою"
-                    width="370"></Img></li>
+                    width="370"></Img>
+                </li>
             </ul>            
         </section>
         <section>
-            <!-- our team -->            
+            <!-- Our team section -->            
             <h2>Наша команда</h2>
-            <ul>
-                <li>
+            <ul class="menu list">
+                <li class="menu-item">
                     <Img src="./img/IgorDemyanenko.jpg"
                     width="270"
                     alt="Ігор Дем'яненко. Продукт менеджер">
@@ -76,7 +85,7 @@
                     <h3>Ігор Дем'яненко</h3>
                     <p lang="en">Product Designer</p>
                 </li>
-                <li>
+                <li class="menu-item">
                     <img src="./img/OlgaRepina.jpg"
                     width="270"
                     alt="Ольга Рєпіна. Фронтенд Девелопер">
@@ -84,7 +93,7 @@
                     <h3>Ольга Рєпіна</h3>
                     <p lang="en">Frontend Developer</p>
                 </li>
-                <li>
+                <li class="menu-item">
                     <img src="./img/NikolayTarasov.jpg"
                     width="270"
                     alt="Микола Тарасов. Маркетинг">
@@ -92,7 +101,7 @@
                     <h3>Микола Тарасов</h3>
                     <p lang="en">Marketing</p>
                 </li>
-                <li>
+                <li class="menu-item">
                     <img src="./img/MihailErmakov.jpg"
                     width="270"
                     alt="Михайло Єрмаков. Дизайнер Інтерфейсу">
@@ -103,13 +112,13 @@
             </ul>            
         </section>
     </main>
-    <footer>
-        <!-- our contacts -->     
+    <footer class="menu list">
+        <!-- Our contacts -->
         <a href="./Index.html">WebStudio</a>
-        <ul>
-            <li><address>м. Київ, пр-т Лесі Українки, 26</address></li>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">096 111 11 11</a></li>            
+        <ul class="menu-item">
+            <li class="address"><address>м. Київ, пр-т Лесі Українки, 26</address></li>
+            <li class="contacts-mail"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="contacts-phone-number"><a href="tel:+380961111111">096 111 11 11</a></li>            
         </ul>        
     </footer>
 </body>
