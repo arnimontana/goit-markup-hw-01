@@ -7,6 +7,7 @@
     --primary-text-color-theme-light: #212121;
     --secondary-text-color-theme-light: #757575;
     --accent-color: #2196F3;
+    --background-color: #2F303A;
 }
 
 .link {
@@ -41,9 +42,20 @@ a {
     text-decoration: none;
 }
 
+/*
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 0 15px;    
+    outline: 2px dashed #f44336;
+  }
+*/
+
 body {
     font-family: var(--primary-font)
 }
+
+
 
 /*==== HEADER ====*/
 
@@ -63,8 +75,31 @@ body {
     color: var(--accent-color);
 }
 
-.contacts-mail, .contacts-phone-number {
+.contacts-mail, 
+.contacts-phone-number,
+.contacts-address,
+.contacts-footer-mail {
     color: transparent;
+}
+
+.contacts-mail:hover,
+.contacts-mail:focus {
+    color: var(--accent-color);
+}
+
+.contacts-phone-number:hover,
+.contacts-phone-number:focus {
+    color: var(--secondary-text-color-theme-dark);
+}
+
+.contacts-address:hover,
+.contacts-address:focus {
+    color: var(--primary-text-color-theme-dark);
+}
+
+.contacts-footer-mail:hover,
+.contacts-footer-mail:focus {
+    color: rgba(255, 255, 255, 0.6)
 }
 
 .mail {
@@ -72,10 +107,67 @@ body {
 }
 
 .phone-number {
-    color: var(--secondary-text-color-theme-light);    
+    color: var(--secondary-text-color-theme-dark);    
 }
 
+.address
+
 /*==== HERO ====*/
+
+.section-solutions {    
+    width: 1200px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    text-align: center;
+    text-transform: uppercase;
+/*    background: var(--background-color); */
+}
+
+/*
+Не знайшов можливості перенесеня тексту "Ефективні рішення..." окрім як розліділити його на 2 заголовка;
+Не вдається відредагувати текст за доаомогою класу solutions-textб тому помістив деякі його CSS значення класом вище;
+Також не вдається відцентрувати группу тексту "Ефективні рішення..." з кнопкою посередині поля бекграунду
+.solutions-text {
+    background: var(--background-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
+    letter-spacing: 0.06em;   
+}
+*/
+
+
+.modal-open-btn {    
+    width: 216px;
+    height: 50px;       
+    background: var(--accent-color);
+    color: var(--primary-text-color-theme-dark);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.88;
+}
+.page-footer {
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2094px;
+    background: var(--background-color);
+}
+.address {
+    color: var(--primary-text-color-theme-dark);
+}
+
+.footer-mail {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-phone-number {
+    color: var(--primary-text-color-theme-dark);
+}
+
 
 
 
