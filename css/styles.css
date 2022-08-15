@@ -1,3 +1,5 @@
+/* ==== file styles.css created to work with both files (index.html and portfolio.html) ==== */
+
 :root {
     --font-family: 'Raleway', 'Roboto', sans-serif;
     --primary-font: 'Roboto', sans-serif;
@@ -9,6 +11,7 @@
     --contact-color-alpha: rgba(255, 255, 255, 0.6);
     --accent-color: #2196F3;
     --background-color: #2F303A;
+    --btn-background-color: #F5F4FA;
 }
 
 .link {
@@ -21,6 +24,7 @@
 
 .logo {
     color: var(--accent-color);
+    font: var(--secondary-font)
 }
 
 .logo-back-dark {
@@ -150,8 +154,72 @@ body {
     letter-spacing: 0.06em;
 }
 
-/*
-.link-open-btn {
+.link-open-btn-all:hover,
+.link-open-btn-all:focus,
+.link-open-btn-sites:hover,
+.link-open-btn-sites:focus,
+.link-open-btn-addones:hover,
+.link-open-btn-addones:focus,
+.link-open-btn-design:hover,
+.link-open-btn-design:focus,
+.link-open-btn-marceting:hover,
+.link-open-btn-marceting:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-text-color-theme-dark);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.link-open-btn-all,
+.link-open-btn-sites,
+.link-open-btn-addones,
+.link-open-btn-design,
+.link-open-btn-marceting {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-light);
+    background-color: var(--btn-background-color);
+    border-radius: 4px;
+}
+
+.link-open-btn-all {
+    width: 73px;
+    height: 38px;
+    left: 512px;
+    top: 174px;
+}
+
+.link-open-btn-sites {
+    width: 125px;
+    height: 38px;
+    left: 593px;
+    top: 174px;
+}
+
+.link-open-btn-addones {
+    width: 112px;
+    height: 38px;
+    left: 726px;
+    top: 174px;
+}
+
+.link-open-btn-design {
+    width: 103px;
+    height: 38px;
+    left: 846px;
+    top: 174px;
+}
+
+.link-open-btn-marceting {
+    width: 130px;
+    height: 38px;
+    left: 957px;
+    top: 174px;
+}
+
+/*=====draft=====
     cursor: pointer;
     width: 73px;
     height: 38px;
@@ -173,7 +241,8 @@ body {
 .link-open-btn:hover
 .link-open-btn:focus {
 
-} */
+} 
+=====draft=====*/
 
 .menu-item {
     font-style: normal
