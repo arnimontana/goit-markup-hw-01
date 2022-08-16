@@ -147,8 +147,7 @@ body {
     border-radius: 4px;
     font-size: 16px;
     line-height: 1.88;
-    font-weight: 700;
-    /* identical to box height, or 188% */
+    font-weight: 700;    
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -256,8 +255,9 @@ body {
     background: var(--background-color);
 }
 
-.address {
+.footer-address {
     color: var(--primary-text-color-theme-dark);
+    font-style: normal;
 }
 
 .footer-mail {
