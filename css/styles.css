@@ -69,6 +69,11 @@ body {
 
 /*==== HEADER ====*/
 
+.page-header {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .nav {    
     font-weight: 500;
     font-size: 14px;
@@ -97,18 +102,25 @@ body {
     letter-spacing: 0.02;
 }
 
+/*==== HERO ====*/
+
+.section-solutions {
+    padding: 200px 452px;
+}
+
 .portfolio-title {
     color: var(--primary-text-color-theme-light);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
 }
+
 .img-page1,
 .img-page2 {
     display: block;
     max-width: 100%;
     height: 100%;
-    }
+}
 
 .contacts-mail, 
 .contacts-phone-number,
@@ -142,7 +154,7 @@ body {
 .section-solutions {
     color: var(--primary-text-color-theme-dark);  
     width: 1200px;
-    height: 600px;
+    /*height: 600px;*/
     left: 0px;
     top: 80px;
     text-align: center;
@@ -164,10 +176,22 @@ body {
 }
 */
 
-.modal-open-btn { 
+.solutions-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-text-color-theme-dark);
+}
+
+.modal-open-btn {
+    border-radius: 4px;
+    padding: 10px 32px;
     color: var(--primary-text-color-theme-dark); 
     cursor: pointer;
-    width: 216px;
+    min-width: 216px;
     height: 50px;       
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -178,6 +202,8 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);    
 }
 
 .link-open-btn-all:hover,
@@ -208,6 +234,7 @@ body {
     color: var(--primary-text-color-theme-light);
     background-color: var(--btn-background-color);
     border-radius: 4px;
+    min-width: 38px;
 }
 
 .link-open-btn-all {
