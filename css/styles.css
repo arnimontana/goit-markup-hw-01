@@ -24,7 +24,13 @@
 
 .logo {
     color: var(--accent-color);
-    font: var(--secondary-font)
+    font: var(--secondary-font);
+    /* прописати :
+    font-family:
+    font-size:
+    font-weight:
+    letter-spacing:
+    */
 }
 
 .logo-back-dark {
@@ -57,7 +63,10 @@ a {
 */
 
 body {
-    font-family: var(--primary-font)
+    font-family: var(--primary-font);
+    font-size: 16px;
+    letter-spacing:0.03em;
+    color: var(--secondary-text-color-theme-dark);
 }
 
 /*==== HEADER ====*/
@@ -70,13 +79,23 @@ body {
 }
 
 .menu-link {
-    color: var(--primary-text-color-theme-light);    
+    color: var(--primary-text-color-theme-light);
+    /* прописати :
+font-size, font-weight , letter-spacing  , line-height
+    */
 }
 
 .menu-link:hover,
 .menu-link:focus {
     color: var(--accent-color);
 }
+
+/* 
+.contacts-mail, 
+.contacts-phone-number,
+    прописати :
+font-size, color, font-weight , letter-spacing , line-height
+*/
 
 .contacts-mail, 
 .contacts-phone-number,
