@@ -23,14 +23,12 @@
 }
 
 .logo {
-    color: var(--accent-color);
-    font: var(--secondary-font);
-    /* прописати :
-    font-family:
-    font-size:
-    font-weight:
-    letter-spacing:
-    */
+    font-family: var(--secondary-font);
+    color: var(--accent-color);    
+    font-weight: 700;
+    font-size: 26px;   
+    line-height: 1.19;
+    letter-spacing: 0.03;
 }
 
 .logo-back-dark {
@@ -63,11 +61,11 @@ a {
 */
 
 body {
+    color: var(--secondary-text-color-theme-dark);
     font-family: var(--primary-font);
     font-size: 16px;
     letter-spacing:0.03em;
-    color: var(--secondary-text-color-theme-dark);
-}
+    }
 
 /*==== HEADER ====*/
 
@@ -80,9 +78,10 @@ body {
 
 .menu-link {
     color: var(--primary-text-color-theme-light);
-    /* прописати :
-font-size, font-weight , letter-spacing  , line-height
-    */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02;
 }
 
 .menu-link:hover,
@@ -90,23 +89,32 @@ font-size, font-weight , letter-spacing  , line-height
     color: var(--accent-color);
 }
 
-/* 
 .contacts-mail, 
-.contacts-phone-number,
-    прописати :
-font-size, color, font-weight , letter-spacing , line-height
-*/
+.contacts-phone-number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02;
+}
+
+.portfolio-title {
+    color: var(--primary-text-color-theme-light);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.img-page1,
+.img-page2 {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    }
 
 .contacts-mail, 
 .contacts-phone-number,
 .contacts-footer-address,
 .contacts-footer-mail {
     color: transparent;
-}
-
-.footer-address {
-    color: var(--primary-text-color-theme-dark);
-    text-decoration: none;
 }
 
 .mail:hover,
@@ -156,17 +164,17 @@ font-size, color, font-weight , letter-spacing , line-height
 }
 */
 
-.modal-open-btn {  
+.modal-open-btn { 
+    color: var(--primary-text-color-theme-dark); 
     cursor: pointer;
     width: 216px;
     height: 50px;       
     background: var(--accent-color);
-    color: var(--primary-text-color-theme-dark);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-size: 16px;
     line-height: 1.88;
-    font-weight: 700;    
+    font-weight: 700;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
